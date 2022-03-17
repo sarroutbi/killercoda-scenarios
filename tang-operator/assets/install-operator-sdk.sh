@@ -8,3 +8,6 @@ chmod +x operator-sdk_${OS}_${ARCH} && mv operator-sdk_${OS}_${ARCH} /usr/local/
 
 # Install OLM (required for OLM based operators)
 operator-sdk olm install
+
+# Check OLM status
+operator-sdk olm status
