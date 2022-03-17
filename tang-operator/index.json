@@ -21,10 +21,11 @@
       "text": "finish.md"
     },
     "assets": {
-      "controlnode": [
+      "host01": [
           {
               "file": "operator_sdk_install.sh",
-              "target": "~/"
+              "target": "~/",
+	      "chmod": "+x"
           }
       ]
     }
