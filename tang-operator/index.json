@@ -36,8 +36,8 @@
 	      "chmod": "+x"
           },
           {
-              "file": "minimal-keyretrieve/",
-              "target": "~/"
+              "file": "minimal-keyretrieve/*",
+              "target": "~/minimal-keyretrieve/"
 	  }
       ]
     }
