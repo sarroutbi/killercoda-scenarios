@@ -16,6 +16,10 @@
       {
         "title": "Install Tang Operator",
         "text": "install-tang-operator.md"
+      },
+      {
+        "title": "Configure Tang Operator",
+        "text": "configure-tang-operator.md"
       }
     ],
     "intro": {
@@ -30,7 +34,11 @@
               "file": "install-operator-sdk.sh",
               "target": "~/",
 	      "chmod": "+x"
-          }
+          },
+          {
+              "file": "minimal-keyretrieve/",
+              "target": "~/"
+	  }
       ]
     }
   },
