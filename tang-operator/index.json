@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Start Kubernetes Cluster",
+        "text": "start-kubernetes.md"
+      },
+      {
         "title": "Install Operator SDK",
         "text": "install-operator-sdk.md"
       },
