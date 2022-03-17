@@ -23,7 +23,7 @@
     "assets": {
       "host01": [
           {
-              "file": "install_operator_sdk.sh",
+              "file": "install-operator-sdk.sh",
               "target": "~/",
 	      "chmod": "+x"
           }
