@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Install Operator SDK",
-        "text": "intsall-operator-sdk.md"
+        "text": "install-operator-sdk.md"
       },
       {
         "title": "Install Tang Operator",
