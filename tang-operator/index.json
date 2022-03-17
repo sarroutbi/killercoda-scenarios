@@ -37,7 +37,7 @@
           },
           {
               "file": "minimal-keyretrieve/*",
-              "target": "~/minimal-keyretrieve/"
+              "target": "~/"
 	  }
       ]
     }
