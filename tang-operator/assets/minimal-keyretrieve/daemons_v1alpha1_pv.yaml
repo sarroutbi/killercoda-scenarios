@@ -1,11 +1,14 @@
 apiVersion: v1
-kind: PersistentVolumeClaim
+kind: PersistentVolume
 metadata:
-  name: tangserver-pvc
-  namespace: nbde
+  name: tangserver-pv
 spec:
+  capacity:
+    storage: 2Gi
+  volumeMode: Filesystem
   accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 1Gi
+  - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Delete
+  storageClassName: local-storage
+  local:
+    path: /root/pv
