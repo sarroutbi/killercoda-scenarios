@@ -1,1 +1,1 @@
-This environment has an operator-sdk-install.sh{{execute}}
+This environment has an install-operator-sdk.sh{{execute}}
