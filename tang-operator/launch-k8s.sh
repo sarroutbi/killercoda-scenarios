@@ -4,8 +4,10 @@ while [ ! -f /root/.kube/config ]
 do
   sleep 1
 done
-echo Kubernetes started
 if [ -f /root/.kube/start ];
 then
   /root/.kube/start
 fi
+echo
+echo Kubernetes started
+echo
