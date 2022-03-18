@@ -1,10 +1,11 @@
 To perform key rotation, execute next command:  
 `./key-rotate.sh -n nbde -c kubectl`{{execute}}
 
-Note that, after performing previous operator, hidden keys appear, and new active keys are generated:  
+Note that, after performing previous command, hidden keys should appear, and new active keys should generated.
+To access to the status of the keys in the tangserver, execute next command:
 `kubectl -n nbde describe tangserver | grep 'Status:' -A10`{{execute}}
 
-Please, wait until keys have been rotated, with an output to previous command similar to:  
+Please, wait until keys have been rotated, an output to previous command is similar to:  
 ```bash
 controlplane $ kubectl -n nbde describe tangserver | grep 'Status:' -A10
 Status:
