@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Starting Kubernetes Cluster ...",
-        "text": "start-kubernetes.md"
+        "text": "start-kubernetes.md",
+        "code": "start.sh"
       },
       {
         "title": "Install Operator SDK",
@@ -27,8 +28,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "start.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
