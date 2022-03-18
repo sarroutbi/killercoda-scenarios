@@ -50,6 +50,8 @@ spec:
   hiddenKeys:
   - sha1: ${sha1_1}
   - sha1: ${hsha1_1}
+  image: docker.io/sarroutbi/tang
+  version: unsupported
 EOF
 
 "${oc_client}" apply -f "${ftemp}" -n "${namespace}"
