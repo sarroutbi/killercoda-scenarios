@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Start Kubernetes Cluster",
+        "title": "Starting Kubernetes Cluster ...",
         "text": "start-kubernetes.md",
         "code": "launch-k8s.sh"
       },
@@ -28,7 +28,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "launch-k8s.sh"
     },
     "finish": {
       "text": "finish.md"
