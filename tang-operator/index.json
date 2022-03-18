@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Start Kubernetes Cluster",
-        "text": "start-kubernetes.md"
+        "text": "start-kubernetes.md",
+        "code": "~/launch-k8s.sh"
       },
       {
         "title": "Install Operator SDK",
@@ -36,6 +37,11 @@
       "host01": [
           {
               "file": "install-operator-sdk.sh",
+              "target": "~/",
+	      "chmod": "+x"
+          },
+          {
+              "file": "launch-k8s.sh",
               "target": "~/",
 	      "chmod": "+x"
           },
