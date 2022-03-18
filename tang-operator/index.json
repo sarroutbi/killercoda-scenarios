@@ -42,11 +42,6 @@
 	      "chmod": "+x"
           },
           {
-              "file": "launch-k8s.sh",
-              "target": "~/",
-	      "chmod": "+x"
-          },
-          {
               "file": "key-rotate.sh",
               "target": "~/",
 	      "chmod": "+x"
