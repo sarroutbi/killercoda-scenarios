@@ -20,6 +20,10 @@
       {
         "title": "Configure Tang Operator",
         "text": "configure-tang-operator.md"
+      },
+      {
+        "title": "Key Rotation",
+        "text": "key-rotation.md"
       }
     ],
     "intro": {
@@ -32,6 +36,11 @@
       "host01": [
           {
               "file": "install-operator-sdk.sh",
+              "target": "~/",
+	      "chmod": "+x"
+          },
+          {
+              "file": "key-rotate.sh",
               "target": "~/",
 	      "chmod": "+x"
           },
