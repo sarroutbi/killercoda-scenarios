@@ -1,4 +1,4 @@
-Install operator-sdk via next command:  
+Configure tang-operator via next command:  
 `kubectl apply -f minimal-keyretrieve/`{{execute}}
 
 Once operator has been configured, deployed services can be observed with next command:  
