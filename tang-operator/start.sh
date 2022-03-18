@@ -1,6 +1,4 @@
 #!/bin/bash
-pwd
-ls
-uname -a
+sleep 3
 launch-k8s.sh
 install-operator-sdk.sh
