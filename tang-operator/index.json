@@ -28,7 +28,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "launch-k8s.sh"
+      "code": "start.sh"
     },
     "finish": {
       "text": "finish.md"
