@@ -1,8 +1,8 @@
 {
   "title": "Tang Operator",
   "description": "Providing NBDE in OpenShift with Tang Operator",
-  "difficulty": "Intermediate",
-  "time": "60 minutes",
+  "difficulty": "Easy",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
@@ -54,8 +54,6 @@
     }
   },
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
