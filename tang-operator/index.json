@@ -11,10 +11,6 @@
         "code": "start.sh"
       },
       {
-        "title": "Install Operator SDK",
-        "text": "install-operator-sdk.md"
-      },
-      {
         "title": "Install Tang Operator",
         "text": "install-tang-operator.md"
       },
