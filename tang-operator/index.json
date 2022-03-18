@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Starting Kubernetes Cluster ...",
-        "text": "start-kubernetes.md",
-        "code": "start.sh"
+        "text": "start-kubernetes.md"
       },
       {
         "title": "Install Tang Operator",
@@ -24,7 +23,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "start.sh"
     },
     "finish": {
       "text": "finish.md"
