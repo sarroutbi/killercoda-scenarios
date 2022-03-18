@@ -37,8 +37,13 @@
       "host01": [
           {
               "file": "install-operator-sdk.sh",
-              "target": "~/",
+              "target": "/usr/local/bin",
 	      "chmod": "+x"
+          },
+          {
+              "file": "launch-k8s.sh",
+              "target": "/usr/local/bin",
+              "chmod": "+x"
           },
           {
               "file": "key-rotate.sh",
@@ -54,6 +59,7 @@
   },
   "environment": {
     "hideintro": true,
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
