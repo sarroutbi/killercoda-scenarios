@@ -21,3 +21,6 @@ In case installation fails, you can try cleaning up and reinstall with next comm
 `operator-sdk cleanup tang-operator`{{execute}}
 `operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/tang-operator-bundle:latest`{{execute}}
 
+In case installation takes long:
+`operator-sdk cleanup tang-operator`{{execute}}
+`operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/tang-operator-bundle:latest --index-image quay.io/operator-framework/opm:v1.23.0`{{execute}}
