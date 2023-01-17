@@ -16,7 +16,8 @@ INFO[0037]   Found ClusterServiceVersion "default/tang-operator.v0.0.25" phase: 
 INFO[0061]   Found ClusterServiceVersion "default/tang-operator.v0.0.25" phase: Succeeded
 INFO[0061] OLM has successfully installed "tang-operator.v0.0.25"
 ```
+If you see an output similar to previous one, click on Next button.
 
-In case installation takes long and doesn't complete as specified before, try cleaning and installing with particular opm version:
+Meanwhile, in case installation takes long and doesn't complete as specified before, try cleaning and installing with particular opm version:\
 `operator-sdk cleanup tang-operator`{{execute}}\
 `operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/tang-operator-bundle:latest --index-image quay.io/operator-framework/opm:v1.23.0`{{execute}}
