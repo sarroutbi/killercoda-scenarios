@@ -1,13 +1,13 @@
-Configure tang-operator via next command:  
+Configure NBDE Tang Server operator via next command:
 `kubectl apply -f minimal-keyretrieve/`{{execute}}
 
-Once operator has been configured, deployed services can be observed with next command:  
+Once operator has been configured, deployed services can be observed with next command:
 `kubectl -n nbde get services`{{execute}}
 
-Information of deployed tangserver CRD can be retrieved with next command:  
+Information of deployed tangserver CRD can be retrieved with next command:
 `kubectl -n nbde describe tangserver`{{execute}}
 
-Deployed pods can be observed with next command:  
+Deployed pods can be observed with next command:
 `kubectl -n nbde get pods`{{execute}}
 
 Please, wait until pods are up and running, with an output to previous command similar to:

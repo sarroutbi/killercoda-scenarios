@@ -18,5 +18,5 @@ INFO[0099] OLM has successfully installed "nbde-tang-server.v1.1.0"
 If you see an output similar to previous one, click on Next button.
 
 Meanwhile, in case installation takes long and doesn't complete as specified before, try cleaning and installing with particular opm version:\
-`operator-sdk cleanup tang-operator`{{execute}}\
-`operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/tang-operator-bundle:latest --index-image quay.io/operator-framework/opm:v1.23.0`{{execute}}
+`operator-sdk cleanup nbde-tang-server`{{execute}}\
+`operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/nbde-tang-server-bundle:latest --index-image quay.io/operator-framework/opm:v1.23.0`{{execute}}
