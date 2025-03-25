@@ -1,11 +1,11 @@
-apiVersion: daemons.redhat.com/v1alpha1
+---
+apiVersion: nbde.openshift.io/v1alpha1
 kind: TangServer
 metadata:
   name: tangserver-mini
   namespace: nbde
   finalizers:
-  - finalizer.daemons.tangserver.redhat.com
+    - finalizer.daemons.tangserver.redhat.com
 spec:
   replicas: 1
-  image: docker.io/sarroutbi/tang
-  version: unsupported
+  image: "quay.io/sec-eng-special/fedora_tang_server"
