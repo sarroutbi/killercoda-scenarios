@@ -1,6 +1,6 @@
 {
-  "title": "Tang Operator",
-  "description": "Providing NBDE in OpenShift with Tang Operator",
+  "title": "NBDE Tang Server",
+  "description": "Providing NBDE in OpenShift with NBDE Tang Server operator",
   "difficulty": "Easy",
   "time": "15 minutes",
   "details": {
@@ -10,11 +10,11 @@
         "text": "start-kubernetes.md"
       },
       {
-        "title": "Install Tang Operator",
+        "title": "Install NBDE Tang Server operator",
         "text": "install-tang-operator.md"
       },
       {
-        "title": "Configure Tang Operator",
+        "title": "Configure NBDE Tang Server operator",
         "text": "configure-tang-operator.md"
       },
       {
