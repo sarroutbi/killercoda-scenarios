@@ -38,7 +38,7 @@ replicas=$("${oc_client}" -n "${namespace}" get tangservers.daemons.redhat.com  
 
 ftemp=$(mktemp)
 cat<<EOF>"${ftemp}"
-apiVersion: daemons.redhat.com/v1alpha1
+apiVersion: nbde.openshift.io/v1alpha1
 kind: TangServer
 metadata:
   name: tangserver-mini
