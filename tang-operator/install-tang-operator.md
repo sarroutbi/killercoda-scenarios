@@ -1,20 +1,19 @@
-Install tang operator by using next command:  
-`operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/tang-operator-bundle:latest`{{execute}}
+Install tang operator by using next command:
+`operator-sdk run bundle --verbose --timeout 10m quay.io/sec-eng-special/nbde-tang-server-bundle:latest`{{execute}}
 
-After execution of previous command, you should see an output similar to next one (take into account that version could be a different one):  
+After execution of previous command, you should see an output similar to next one (take into account that version could be a different one):
 ```bash
-INFO[0012] Successfully created registry pod: quay-io-sec-eng-special-tang-operator-bundle-latest
-INFO[0012] Created CatalogSource: tang-operator-catalog
-INFO[0012] OperatorGroup "operator-sdk-og" created
-INFO[0012] Created Subscription: tang-operator-v1-0-11-sub
-INFO[0017] Approved InstallPlan install-9zh2g for the Subscription: tang-operator-v1-0-11-sub
-INFO[0017] Waiting for ClusterServiceVersion "default/tang-operator.v1.0.11" to reach 'Succeeded' phase
-INFO[0017]   Waiting for ClusterServiceVersion "default/tang-operator.v1.0.11" to appear
-INFO[0034]   Found ClusterServiceVersion "default/tang-operator.v1.0.11" phase: Pending
-INFO[0036]   Found ClusterServiceVersion "default/tang-operator.v1.0.11" phase: InstallReady
-INFO[0037]   Found ClusterServiceVersion "default/tang-operator.v1.0.11" phase: Installing
-INFO[0061]   Found ClusterServiceVersion "default/tang-operator.v1.0.11" phase: Succeeded
-INFO[0061] OLM has successfully installed "tang-operator.v1.0.11"
+INFO[0023] Creating a File-Based Catalog of the bundle "quay.io/sec-eng-special/nbde-tang-server-bundle:v1.1.0"
+INFO[0029] Generated a valid File-Based Catalog
+INFO[0049] Created registry pod: quay-io-sec-eng-special-nbde-tang-server-bundle-v1-1-0
+INFO[0049] Created CatalogSource: nbde-tang-server-catalog
+INFO[0050] Created Subscription: nbde-tang-server-v1-1-0-sub
+INFO[0074] Approved InstallPlan install-xrww4 for the Subscription: nbde-tang-server-v1-1-0-sub
+INFO[0074] Waiting for ClusterServiceVersion "openshift-operators/nbde-tang-server.v1.1.0" to reach 'Succeeded' phase
+INFO[0076]   Found ClusterServiceVersion "openshift-operators/nbde-tang-server.v1.1.0" phase: Pending
+INFO[0078]   Found ClusterServiceVersion "openshift-operators/nbde-tang-server.v1.1.0" phase: Installing
+INFO[0099]   Found ClusterServiceVersion "openshift-operators/nbde-tang-server.v1.1.0" phase: Succeeded
+INFO[0099] OLM has successfully installed "nbde-tang-server.v1.1.0"
 ```
 If you see an output similar to previous one, click on Next button.
 
